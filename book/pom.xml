@@ -35,7 +35,7 @@ along with pragmatickm-task-bom.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.pragmatickm</documented.groupId><documented.artifactId>pragmatickm-task-bom</documented.artifactId>
-		<documented.name>PragmaticKM Task BOM²</documented.name>
+		<documented.name>PragmaticKM Task BOM</documented.name>
 		<documented.shortTitle>BOM</documented.shortTitle>
 		<documented.url>https://pragmatickm.com/task/bom/</documented.url>
 		<documented.description>Bill of Materials (BOM) for tasks nested within SemanticCMS pages and elements.</documented.description>
