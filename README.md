@@ -27,6 +27,7 @@ Bill of Materials (BOM) for tasks nested within [SemanticCMS](https://github.com
 * [GitHub](https://github.com/aoindustries/pragmatickm-task-bom)
 
 ## Managed Dependencies
+* [PragmaticKM Task All](https://github.com/aoindustries/pragmatickm-task-all)
 * [PragmaticKM Task Model](https://github.com/aoindustries/pragmatickm-task-model)
 * [PragmaticKM Task Renderer HTML](https://github.com/aoindustries/pragmatickm-task-renderer-html)
 * [PragmaticKM Task Servlet](https://github.com/aoindustries/pragmatickm-task-servlet)
