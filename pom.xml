@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-task-bom - Bill of Materials (BOM) for tasks nested within SemanticCMS pages and elements.
-Copyright (C) 2019  AO Industries, Inc.
+Copyright (C) 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -48,54 +48,54 @@ along with pragmatickm-task-bom.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>2.0.0-SNAPSHOT</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-renderer-html</artifactId><version>2.0.0-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-renderer-html</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-renderer-html</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-renderer-html</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
