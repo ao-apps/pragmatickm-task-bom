@@ -37,7 +37,7 @@ along with pragmatickm-task-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-10T00:52:16-0500"
-		dateModified="2020-03-29T06:12:57-05:00"
+		dateModified="2020-11-18T22:36:47-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task-bom:pom.version}" />
@@ -52,7 +52,12 @@ along with pragmatickm-task-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/task/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
