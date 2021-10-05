@@ -71,20 +71,20 @@ along with pragmatickm-task-bom.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task-bom.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-task-bom.git</developerConnection>
-		<url>https://github.com/aoindustries/pragmatickm-task-bom</url>
+		<connection>scm:git:git://github.com/ao-apps/pragmatickm-task-bom.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-task-bom.git</developerConnection>
+		<url>https://github.com/ao-apps/pragmatickm-task-bom</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/pragmatickm-task-bom/issues</url>
+		<url>https://github.com/ao-apps/pragmatickm-task-bom/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/pragmatickm-task-bom/actions</url>
+		<url>https://github.com/ao-apps/pragmatickm-task-bom/actions</url>
 	</ciManagement>
 
 	<repositories>
