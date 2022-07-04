@@ -39,7 +39,7 @@ along with pragmatickm-task-bom.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
-  <name>PragmaticKM Task BOM²</name>
+  <name>PragmaticKM Task BOM</name>
   <url>https://pragmatickm.com/task/bom/</url>
   <description>Bill of Materials (BOM) for tasks nested within SemanticCMS pages and elements.</description>
   <inceptionYear>2019</inceptionYear>
