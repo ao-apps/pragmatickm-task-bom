@@ -19,7 +19,7 @@ Bill of Materials (BOM) for tasks nested within [SemanticCMS](https://github.com
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/bom/)
 * [Changelog](https://pragmatickm.com/task/bom/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-task-bom)
+* [Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-task-bom)
 * [GitHub](https://github.com/ao-apps/pragmatickm-task-bom)
 
 ## Managed Dependencies
